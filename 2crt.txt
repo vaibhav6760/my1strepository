@@ -1,0 +1,54 @@
+HTML
+
+basic tags(heading tags,paragragh tags,anchor tags)
+list (ordered list,unordered list)
+tables
+forms
+input tags
+labels
+buttons(radio buttons,check box,drop box)
+class
+
+
+CSS
+
+body attributes
+text attributes
+selectors
+form attributes
+css flex box
+css grid box
+animations(over)
+
+
+web pages
+
+html document(header,putter)
+structural web pages
+css (input type)
+media
+radio buttons customize 
+input type properties 
+
+
+//syntax in javascript
+//let,const,var are used to declare variables in JS
+
+let a=10;
+//let is block scoped,cannot be redeclared in the same scope
+
+const b=20;
+//const is block scoped cannot be reassgined
+
+var c=30;
+// var is fn scoped,can be redeclared in the same scope
+
+console.log(a,b,c);
+//console.log will ouput the values of a,b, and c
+//output: 10 20 30
+
+//take input from user
+let userInput = prompt("Enter a number:");
+
+//prompt will display a dialog box asking for user input
+console.log("User input is:"+userInput);

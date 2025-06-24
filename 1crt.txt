@@ -1,0 +1,31 @@
+selecters in CSS
+ 
+selecters or 4 types
+
+1) universal selecter :
+/* targets ALL HTML elements. use sparingly! */
+
+ex: *{
+         margin 
+
+
+  }
+ 
+body {
+ font family
+background-color
+color
+margin
+line-height
+}
+
+in the body of the code is they are attributes
+
+
+2) element selecter :
+ there are <p>,<h1>,<div> 
+/* targets are in the html tags */
+
+
+
+3) 

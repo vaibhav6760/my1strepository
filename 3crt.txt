@@ -1,0 +1,259 @@
+JAVA SCRIPT
+//node.js
+
+
+//datatypes in JS
+//Datatypes in js include:
+
+//1.primitive  types:
+// -Number: represents both integer and floating-point numbers.
+// -string: represents a sequence of characters enclosed in single or double quotes
+// -boolean: represents a logical entity and can have two values: true or false.
+// -undefined: a variable that has been declared but not assigned a value.
+// -null: represents the intentional absence of any object value.
+// -bigInt: rtepresents integers with arbitary precision,useful for large integers.
+// -symbol: a unique and immutable primitive value,often used as object property keys.
+
+
+//2.non-primitive datatypes:
+// -object: a collection of properties,where each property is a key-value pair.
+// -array: a spl type of object used to store ordered collections of values.
+// -function: a callable object that can be invoked to perform a specific task.
+
+//example of different data types in javascript
+
+//primitive data types
+let number = 42; //number
+let string="hello world!"; //string
+let boolean= true; //boolean
+let undefinedvar; // undefined //(not assigned a value)
+let nullvar = null; //null
+let symbolvar =symbol("unique"); //symbol //(unique indetifier) //(often used as object property keys)
+let bigIntVar = BigInt(123456789012345678901234567890); //used for large integer values
+
+
+
+
+//non-primitive datatypes 
+let objectvar = { key: "value"}; //object //(collection 
+let arrayvar = [1, 2, 3, 4, 5];
+let functionvar = function() {return "I am a function" };
+let object2{
+// adding multiple key-value pairs
+ name: "John Doe",
+ age:30;
+isemployed:true,
+hobbies: ["reading","gaming","coding"],
+}
+
+// output the data types
+console.log("Data Types in javascript:");
+console.log("number:",number);
+console.log("string:",string);
+console.log("boolean:",boolean);
+console.log("undefinedvar:",undefinedvar);
+console.log("nullvar:",nullvar);
+console.log("symbolvar:",symbolvar);
+console.log("BigIntvar:",BigIntvar);
+console.log("objectvar:",objectvar);
+console.log("arrayvar:",arrayvar);
+console.log("functionvar:",functionvar);
+console.log("BigIntvar:",BigIntvar);
+
+
+
+operators.js
+
+let a=-10;
+let b=5;
+console.log("arithmetic Opreators:");
+console.log("a =", a, ",b =",b);
+let sum = a + b;
+let difference = a - b;
+let product = a*b;
+let quotient = a/b;
+let remainder = a % b;
+let exponent = a ** b;
+console.log("Sum:",sum);
+console.log("Difference:",difference);
+console.log("Product:",product);
+console.log("Quotient:",quotient);
+console.log("Remainder:",remainder);
+console.log("Exponent:",exponent);
+
+
+
+assignment operators 
+let x= 10;
+x +=5;
+x -=3;
+x *=2;
+x /=4;
+x %=3;
+console.log("Assignment Operators:");
+console.log("x after assignments:" ,x);
+console.log("\n");
+
+//comparison Operators
+let isEqual = (a==b);
+let isStrictEqual = (a === b);
+let isNotEqual = (a != b);
+let isStrictNotEqual = (a !== b);
+let isGreaterThan = (a > b);
+let isLessThan = (a < b);
+let isGreaterThanOrEqual = (a >= b);
+let isLessThanOrEqual = (a <= b);
+console.log("Comprasion Opreators:");
+console.log("Is Equal:", isEqual);
+console.log("Is Strict Equal :", isStrictEqual );
+console.log("Is Not Equal:", isNotEqual);
+console.log("Is Strict Not Equal :", isStrictNotEqual );
+console.log("Is Greater Than :",isGreaterThan );
+console.log("Is Less Than:",isLessThan);
+console.log("Is Greater Than Or Equal:",isGreaterThanOrEqual);
+console.log("(Is Less Than Or Equal :", isLessThanOrEqual);
+
+
+
+logical Operators
+let andOperator = (a > 0 && b > 0);
+let orOperator = (a > 0 || b > 0);
+let notOperator = !(a < b);
+console.log("Logical Operators:");
+console.log(:"AND Operator:", andOperator);
+console.log(:"OR Operator:", orOperator);
+console.log(:"NOT Operator:", notOperator);
+console.log("\n");
+
+
+Bitwise operators
+let bitwiseAnd = a & b;
+let bitwiseOr = a | b;
+let bitwiseXor = a  ^  b;
+let bitwiseNot =  ~a; 
+let leftShift = a << 1;
+let rightShift = a >> 1;
+console.log("Bitwise Operators:");
+console.log("Bitwise AND:",bitwiseAnd);
+console.log("Bitwise OR:",bitwiseOr);
+console.log("Bitwise NOT:",bitwiseNot);
+console.log("Left Shift:",leftShift);
+console.log("Right Shift :",rightShift );
+console.log("\n");
+
+
+A        B         A&B      A||B      A^B
+0        0            0             0              0
+1        0            0             1              1
+0        1            0             1              1   
+1        1            1             1              1
+
+
+
+
+// ternary Operator
+
+let age = 18;
+let eligibility = (age >= 18) ? "Eligible to vote" : "Not eligible to vote";
+console.log("Ternart Operator:");
+console,log("Eligibility:", eligibility);
+console.log("\n");
+
+
+
+// Typeof Operator
+
+let variableType = typeof a;
+console.log("Typeof Operator:");
+console.log("Type of variable 'a':", variableType);
+console.log("\n");
+
+
+
+
+
+
+
+
+
+
+
+
+
+//CONTROLFLOW STATEMENTS
+// Example of 'if','else if', and 'else' statements
+
+let age = 18;
+if (age < 18){
+        console.log("You are a minor.");
+}
+else if (age >= 18 && age < 65){
+         console.log("You are an adult");
+}
+else{
+        console.log("You are a senior citizen.");
+}
+
+console.log("\n");
+
+
+
+//days
+
+
+let day = 3;
+switch (day) {
+        case 1:
+                 console.log("Monday");
+                 break;
+        case 2:
+                 console.log("Tuesday");
+                 break;
+        case 3:
+                 console.log("Wednesday");
+                 break;
+        case 4:
+                 console.log("Thursday");
+                 break;
+        case 5:
+                 console.log("Friday");
+                 break;
+        case 6:
+                 console.log("Saturday");
+                 break;
+        case 7:
+                 console.log("Sunday");
+                 break;
+        default:
+                console.log("Invalid day");
+}
+
+
+//loops
+//for loop
+
+for(let i = 0; i < 5; i++){
+      console.log("Iteration:",i);
+}
+
+console,log("\n");
+
+//while loop
+
+let j = 0;
+while (j < 5) {
+         console.log("While loop Iteration:", j);
+         j++;
+}
+
+console,log("\n");
+
+
+//do while loop
+
+let k = 0;
+do { 
+       console.log("Do...While loop Iteration:", k);
+
+       k++;
+}while (k < 5);
