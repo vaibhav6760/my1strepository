@@ -11,6 +11,7 @@ function hideMenu(id) {
     menuContainer.style.opacity = "0";
 }
 
+
 // SLIDER 1 (5 images - name="r")
 let rIndex = 1;
 setInterval(() => {
@@ -42,6 +43,7 @@ setInterval(() => {
     pIndex++;
     if (pIndex > 3) pIndex = 1;
 }, 2500);
+
 
 // Show/hide sign-in box
 let signInBox = document.querySelector('.sign-in-box');
