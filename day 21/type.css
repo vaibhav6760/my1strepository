@@ -1,0 +1,85 @@
+body {
+
+    background-color: rgb(109, 207, 246);
+    color: rgb(47, 0, 255);
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    animation: blink 2s infinite;
+}
+
+#sentence {
+    margin: 20px 0;
+    font-size: 20px;
+    border: 1px solid rgb(255, 77, 0);
+    padding: 10px;
+    min-height: 60px;
+
+}
+
+#sentences {
+    color : rgb(11, 11, 11);
+}
+textarea {
+    width: 300px;
+    height: 50px;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 10px;
+    border: 3px solid #000000;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    resize: none;
+}
+
+textarea.error {
+text-decoration: underline red wavy;
+}
+
+.progress-container {
+    background-color: greenyellow;
+    height: 10px;
+    margin: 10px;
+    border: 1px solid rgb(46, 65, 46);
+}
+
+#progress-bar{
+    height: 10px;
+    background: rgb(0, 0, 0);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+#stats {
+    margin-top: 10px;
+    text-align: left;
+}
+
+button {
+    background-color: rgb(253, 106, 21);
+    color:#000;
+    padding: 10px 20px;
+    font-family: monospace;
+    cursor:pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 1}
+    50% {opacity: 0.4}
+}
